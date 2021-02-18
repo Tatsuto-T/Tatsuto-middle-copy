@@ -218,10 +218,15 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  #blog .blog-el .blog-el-article {
+    width: 40%;
+  }
   #blog .blog-el #blog-el-article-1 {
+    margin-right: 0px;
     margin-bottom: 5%;
   }
   #blog .blog-el #blog-el-article-2 {
+    margin-right: 0px;
     margin-bottom: 5%;
   }
   #contact .form-wrapper {
