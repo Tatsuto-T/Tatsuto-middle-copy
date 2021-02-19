@@ -838,4 +838,8 @@ section {
 .btn-trigger {
   display: none;
 }
+
+#og-img {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
