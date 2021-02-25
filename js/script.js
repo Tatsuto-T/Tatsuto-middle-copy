@@ -84,11 +84,3 @@ $(".nav-el").on('click',function(){
 	$(".nav-open").removeClass("nav-open");
 	$("#btn").removeClass("active");
 });
-
-$(window).load(function(){
-	$('html,body').animate({ scrollTop: 0 }, '1');
-});
-
-$(document).ready(function(){
-    $('html,body').animate({ scrollTop: 0 }, '1');
-});

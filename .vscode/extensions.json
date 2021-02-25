@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "coenraads.bracket-pair-colorizer",
+        "donjayamanne.githistory",
+        "ms-ceintl.vscode-language-pack-ja",
+        "ritwickdey.liveserver",
+        "ryu1kn.partial-diff",
+        "ritwickdey.live-sass",
+        "esbenp.prettier-vscode",
+        "ionutvmi.path-autocomplete",
+        "mechatroner.rainbow-csv",
+        "humao.rest-client",
+        "shan.code-settings-sync",
+        "bradgashler.htmltagwrap",
+        "vscode-icons-team.vscode-icons"
+    ]
+}
