@@ -1,0 +1,495 @@
+@charset "UTF-8";
+@media screen and (max-width: 1200px) {
+  body {
+    max-width: 1366px;
+  }
+  header #header {
+    width: 90%;
+  }
+  header #header-left h1 {
+    padding-right: 80px;
+  }
+  header #header .nav ul li {
+    padding-right: 25px;
+  }
+  header #header #menu-bar {
+    display: block;
+    font-size: 30px;
+  }
+  header #header #menu-bar .fa-bars {
+    padding-top: 30px;
+  }
+  header #header #menu-bar {
+    display: none;
+  }
+  #site-description {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  #site-description .site-description-left {
+    padding-left: 5%;
+  }
+  #site-feature {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #site-feature img {
+    margin-top: 60px;
+  }
+  #price {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .price-table-left {
+    padding-left: 1%;
+    text-align: left;
+  }
+  #questions-contents {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #questions .questions-content .answer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #performances .swiper-container .swiper-slide .swiper-border .perfomance-details p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header #header .nav {
+    right: -300px;
+    position: fixed;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    background: transparent -webkit-gradient(linear, left top, right top, from(#05A5FA), color-stop(100%, #63FBD7), to(#67FFD6));
+    background: transparent linear-gradient(90deg, #05A5FA 0%, #63FBD7 100%, #67FFD6 100%);
+    margin-top: 0;
+    z-index: 10;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  header #header .nav ul {
+    padding-top: 100px;
+    padding-left: 30px;
+    display: block;
+  }
+  header #header .nav ul li p {
+    color: white;
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  header #header .nav-open {
+    right: 0px !important;
+    position: fixed;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    background: transparent -webkit-gradient(linear, left top, right top, from(#05A5FA), color-stop(100%, #63FBD7), to(#67FFD6));
+    background: transparent linear-gradient(90deg, #05A5FA 0%, #63FBD7 100%, #67FFD6 100%);
+    margin-top: 0;
+    z-index: 10;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  header #header #header-right {
+    display: none;
+  }
+  header .btn-trigger {
+    display: block;
+  }
+  #site-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #site-description .site-description {
+    background-image: url("../img/楕円形 1.svg");
+    background-position: top -37px right -120px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 94px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #site-description .site-description-left {
+    padding-right: 3%;
+  }
+  #site-description .site-description-left h2 {
+    margin-top: 109px;
+    font-size: 26px;
+    line-height: 54px;
+  }
+  #site-description .site-description-left p {
+    font-size: 12px;
+    line-height: 27px;
+    margin-top: 44px;
+    line-height: 24px;
+  }
+  #site-description .site-description-left .contact-button a {
+    height: 155px;
+    height: 37px;
+    font-size: 14px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+  }
+  #site-description .site-description-right {
+    width: 50%;
+    text-align: right;
+  }
+  #site-description .site-description-right img {
+    width: 90%;
+  }
+  section #site-features-1 {
+    margin-bottom: 86px;
+  }
+  section #site-features-1 h4 {
+    margin-bottom: 49px;
+  }
+  section #site-features-1 .site-features-left {
+    margin-right: 10%;
+  }
+  section #site-features-1 .site-features-left img {
+    width: 100%;
+  }
+  section #site-features-1 .site-features-right {
+    text-align: left;
+  }
+  section #site-features-1 .site-features-right h5 {
+    margin-top: 47px;
+    margin-bottom: 30px;
+  }
+  section #site-features-2 {
+    margin-bottom: 136px;
+  }
+  section #site-features-2 h4 {
+    margin-bottom: 59px;
+  }
+  section #site-features-2 .site-features-left {
+    margin-right: 8%;
+    text-align: left;
+  }
+  section #site-features-2 .site-features-left h5 {
+    margin-top: 2px;
+    margin-bottom: 40px;
+  }
+  section #site-features-2 .site-features-right img {
+    width: 100%;
+  }
+  section #site-features-3 {
+    margin-bottom: 154px;
+  }
+  section #site-features-3 h4 {
+    margin-bottom: 62px;
+  }
+  section #site-features-3 .site-features-left {
+    margin-right: 10%;
+  }
+  section #site-features-3 .site-features-left img {
+    width: 100%;
+  }
+  section #site-features-3 .site-features-right {
+    text-align: left;
+  }
+  section #site-features-3 .site-features-right h5 {
+    margin-top: 47px;
+    margin-bottom: 33px;
+  }
+  section #site-features-3 .site-features-right p {
+    line-height: 28px;
+  }
+  #blog .inner {
+    width: 100%;
+  }
+  #blog .blog-el {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #blog .blog-el .blog-el-article {
+    width: 40%;
+  }
+  #blog .blog-el #blog-el-article-1 {
+    margin-right: 0px;
+    margin-bottom: 5%;
+  }
+  #blog .blog-el #blog-el-article-2 {
+    margin-right: 0px;
+    margin-bottom: 5%;
+  }
+  #contact .form-wrapper {
+    width: 90%;
+  }
+  .bglayer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: #000;
+    opacity: 0.3;
+    z-index: 3;
+  }
+  .open {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h5 {
+    font-size: 23px;
+  }
+  header #header-left h1 {
+    font-size: 24px;
+    padding-right: 0px;
+  }
+  #site-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #site-description .site-description {
+    background-image: url("../img/楕円形 1.svg");
+    background-position: top -37px right -120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-top: 94px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+  }
+  #site-description .site-description-left {
+    width: 100%;
+    padding-right: 3%;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #site-description .site-description-left h2 {
+    margin-top: 0px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+  #site-description .site-description-left p {
+    font-size: 12px;
+    line-height: 27px;
+    margin-top: 15px;
+    line-height: 24px;
+    padding-left: 1px;
+  }
+  #site-description .site-description-left .contact-button a {
+    padding: 8px 35px 9px 36px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 155px;
+    background: transparent -webkit-gradient(linear, left top, right top, from(#FA41CC), to(#6020B0));
+    background: transparent linear-gradient(90deg, #FA41CC 0%, #6020B0 100%);
+    color: #FFFFFF;
+    border-radius: 10px;
+  }
+  #site-description .site-description-right {
+    width: 100%;
+    text-align: center;
+  }
+  #site-description .site-description-right img {
+    width: 70%;
+    margin-top: 0;
+  }
+  section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section #site-features {
+    text-align: center;
+    margin: 0 auto;
+  }
+  section #site-features p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  section #site-features h3 {
+    padding-top: 71px;
+  }
+  section #site-features h5 {
+    line-height: 48px;
+  }
+  section #site-features-p {
+    margin-bottom: 57px;
+  }
+  section #site-features .site-feature-layout-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section #site-features-1 {
+    margin-bottom: 60px;
+  }
+  section #site-features-1 h4 {
+    margin-bottom: 20px;
+  }
+  section #site-features-1 .site-features-left {
+    margin-right: 0;
+  }
+  section #site-features-1 .site-features-left img {
+    width: 100%;
+    margin-top: 0;
+  }
+  section #site-features-1 .site-features-right {
+    text-align: left;
+  }
+  section #site-features-1 .site-features-right h5 {
+    margin-top: 47px;
+    margin-bottom: 20px;
+  }
+  section #site-features-2 {
+    margin-bottom: 60px;
+  }
+  section #site-features-2 h4 {
+    margin-bottom: 35px;
+  }
+  section #site-features-2 .site-feature-layout-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  section #site-features-2 .site-feature-layout-flex .site-features-left {
+    margin-right: 0px;
+    text-align: left;
+  }
+  section #site-features-2 .site-feature-layout-flex .site-features-left h5 {
+    margin-top: 47px;
+    margin-bottom: 20px;
+  }
+  section #site-features-2 .site-features-right img {
+    width: 100%;
+    margin-top: 0;
+  }
+  section #site-features-3 {
+    margin-bottom: 60px;
+  }
+  section #site-features-3 h4 {
+    margin-bottom: 20px;
+  }
+  section #site-features-3 .site-features-left {
+    margin-right: 0px;
+  }
+  section #site-features-3 .site-features-left img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  section #site-features-3 .site-features-right {
+    text-align: left;
+  }
+  section #site-features-3 .site-features-right h5 {
+    margin-top: 47px;
+    margin-bottom: 20px;
+  }
+  section #site-features-3 .site-features-right p {
+    line-height: 28px;
+  }
+  #price table th {
+    display: block;
+    border-bottom: none;
+  }
+  #price table td {
+    display: block;
+  }
+  #price table .price-table-left {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+  }
+  #price table .price-table-right {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+  }
+  #questions-contents .questions-content p {
+    font-size: 11px;
+  }
+  #questions-contents .questions-content .question span {
+    display: none;
+  }
+  #questions-contents .questions-content .answer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #blog .blog-el {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #blog .blog-el .blog-el-article {
+    width: 80%;
+    text-align: center;
+  }
+  #blog .blog-el .blog-el-article .blog-el-title {
+    min-height: auto;
+  }
+  #blog .blog-el #blog-el-article-1 {
+    margin-right: 0px;
+  }
+  #blog .blog-el #blog-el-article-2 {
+    margin-right: 00px;
+  }
+  #contact .form-wrapper p {
+    padding-left: 30px;
+  }
+  #contact .form-wrapper p input {
+    width: 86.23%;
+  }
+  #footer-title {
+    padding-bottom: 30px;
+  }
+  #footer-policy {
+    display: block;
+    padding-bottom: 30px;
+  }
+  #footer-policy p {
+    padding-left: 0px;
+  }
+  #footer-policy #privacy-policy {
+    padding-left: 0px;
+    padding-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
