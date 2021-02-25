@@ -1,3 +1,8 @@
+$(window).load(function(){
+    $('html,body').animate({ scrollTop: 0 }, '1');
+});
+
+
 var mySwiper = new Swiper ('.swiper-container', {
 	loop: true,
 	loopedSlides:4,
@@ -82,4 +87,8 @@ $(".nav-el").on('click',function(){
 
 $(window).load(function(){
 	$('html,body').animate({ scrollTop: 0 }, '1');
+});
+
+$(document).ready(function(){
+    $('html,body').animate({ scrollTop: 0 }, '1');
 });
